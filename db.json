@@ -1,0 +1,433 @@
+{
+  "shop":[
+    {
+      "id": 1,
+      "name": "Burberry x Supreme Box Logo Tee White",
+      "price": 43680,
+      "quantity": 5,
+      "brand": ["Supreme", "Burberry"],
+      "image": "./images/supreme-x-burberry-box-logo-tee-white.jpg",
+      "nature": {
+        "color": ["white"],
+        "size": ["M", "L"],
+        "type": "T-shirt"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Supreme x KAWS Tee Pink",
+      "price": 26520,
+      "quantity": 10,
+      "brand": ["Supreme", "KAWS"],
+      "image": "./images/supreme-x-kaws-tee-pink.jpg",
+      "nature": {
+        "color": ["pink"],
+        "size": ["S", "M", "L"],
+        "type": "T-shirt"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Supreme x The North Face Sketch Tee Black",
+      "price": 27690,
+      "quantity": 6,
+      "brand": ["Supreme", "The North Face"],
+      "image": "./images/supreme-x-the-north-face-sketch-tee-khaki-black.jpg",
+      "nature": {
+        "color": ["black"],
+        "size": ["XL", "XXL"],
+        "type": "T-shirt"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Supreme Motion Logo Tee Purple",
+      "price": 28860,
+      "quantity": 9,
+      "brand": ["Supreme"],
+      "image": "./images/supreme-motion-logo-tee-purple.jpg",
+      "nature": {
+        "color": ["purple"],
+        "size": ["XL", "XXL"],
+        "type": "T-shirt"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Supreme Tee Anna Nicole Smith Blue",
+      "price": 25350,
+      "quantity": 4,
+      "brand": ["Supreme"],
+      "image": "./images/supreme-tee-anna-nicole-smith-light-blue.jpg",
+      "nature": {
+        "color": ["blue"],
+        "size": ["S", "L"],
+        "type": "T-shirt"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Jordan Banned Tee Black",
+      "price": 20900,
+      "quantity": 5,
+      "brand": ["Jordan"],
+      "image": "./images/jordan-banned-logo-tee-black.jpg",
+      "nature": {
+        "color": ["black"],
+        "size": ["M", "L", "XL"],
+        "type": "T-shirt"
+      }
+    },
+    {
+      "id": 7,
+      "name": "Bape Light Blue Tee Pigment Ape Logo",
+      "price": 19990,
+      "quantity": 5,
+      "brand": ["Bape"],
+      "image": "./images/bape-blue-tee-main.png",
+      "nature": {
+        "color": ["blue"],
+        "size": ["L", "XL"],
+        "type": "T-shirt"
+      }
+    },
+    {
+      "id": 8,
+      "name": "Supreme Manhattan Tee Black",
+      "price": 19500,
+      "quantity": 7,
+      "brand": ["Supreme"],
+      "image": "./images/supreme-manhattan-tee-black.jpg",
+      "nature": {
+        "color": ["black"],
+        "size": ["S", "M", "L", "XL"],
+        "type": "T-shirt"
+      }
+    },
+    {
+      "id": 9,
+      "name": "Supreme Water Pistol Tee Pink",
+      "price": 22900,
+      "quantity": 12,
+      "brand": ["Supreme"],
+      "image": "./images/supreme-water-gun-tee-pink.jpg",
+      "nature": {
+        "color": ["pink"],
+        "size": ["M", "L", "XL"],
+        "type": "T-shirt"
+      }
+    },
+    {
+      "id": 10,
+      "name": "Uniqlo x KAWS Tee White Gone",
+      "price": 15600,
+      "quantity": 17,
+      "brand": ["KAWS", "Uniqlo"],
+      "image": "./images/uniqlo-x-kaws-tee-white-gone.jpg",
+      "nature": {
+        "color": ["white"],
+        "size": ["S", "M", "L", "XL"],
+        "type": "T-shirt"
+      }
+    },
+    {
+      "id": 11,
+      "name": "Uniqlo x KAWS Tee White Flayed",
+      "price": 15600,
+      "quantity": 10,
+      "brand": ["KAWS", "Uniqlo"],
+      "image": "./images/uniqlo-x-kaws-tee-white-flayed.jpg",
+      "nature": {
+        "color": ["white"],
+        "size": ["M", "L"],
+        "type": "T-shirt"
+      }
+    },
+    {
+      "id": 12,
+      "name": "UFOmore Destroyed Earth Tee",
+      "price": 7800,
+      "quantity": 10,
+      "brand": ["UFOmore"],
+      "image": "./images/ufomore.jpg",
+      "nature": {
+        "color": ["sand"],
+        "size": ["S", "M", "L", "XL"],
+        "type": "T-shirt"
+      }
+    },
+    {
+      "id": 13,
+      "name": "Travis Scott x Fragment x Jordan Hoodie Black",
+      "price": 29900,
+      "quantity": 5,
+      "brand": ["Travis Scott", "Jordan"],
+      "image": "./images/travis-scott-fragment-jordan-hoodie-black.jpg",
+      "nature": {
+        "color": ["black"],
+        "size": ["M", "L", "XL"],
+        "type": "Hoodie"
+      }
+    },
+    {
+      "id": 14,
+      "name": "Travis Scott x Jordan Pullover Khaki",
+      "price": 40200,
+      "quantity": 8,
+      "brand": ["Travis Scott", "Jordan"],
+      "image": "./images/travis-scott-cactus-jack-x-jordan-pullover-hoodie-liczo.jpg",
+      "nature": {
+        "color": ["khaki"],
+        "size": ["S", "M", "L"],
+        "type": "Hoodie"
+      }
+    },
+    {
+      "id": 15,
+      "name": "Fear of God Essentials Hoodie Desert Taupe",
+      "price": 28700,
+      "quantity": 10,
+      "brand": ["Fear Of God"],
+      "image": "./images/fear-of-god-essentials-relaxed-hoodie-desert-taupe.jpg",
+      "nature": {
+        "color": ["desert taupe"],
+        "size": ["S", "M", "L"],
+        "type": "Hoodie"
+      }
+    },
+    {
+      "id": 16,
+      "name": "Fear of God Essentials Hoodie Cream",
+      "price": 35000,
+      "quantity": 7,
+      "brand": ["Fear Of God"],
+      "image": "./images/fear-of-god-essentials-pull-over-hoodie-ss21-cream-buttercream-spina.jpg",
+      "nature": {
+        "color": ["cream"],
+        "size": ["S", "M", "L"],
+        "type": "Hoodie"
+      }
+    },
+    {
+      "id": 17,
+      "name": "Fear of God Essentials Hoodie Pistachio",
+      "price": 28700,
+      "quantity": 19,
+      "brand": ["Fear Of God"],
+      "image": "./images/fear-of-god-essentials-pullover-hoodie-pistachio-1.jpg",
+      "nature": {
+        "color": ["pistachio"],
+        "size": ["S", "M", "L"],
+        "type": "Hoodie"
+      }
+    },
+    {
+      "id": 18,
+      "name": "Fear of God Essentials Hoodie Taupe",
+      "price": 33300,
+      "quantity": 17,
+      "brand": ["Fear Of God"],
+      "image": "./images/fear-of-god-essentials-hoodie-taupe.jpg",
+      "nature": {
+        "color": ["taupe"],
+        "size": ["S", "M", "L"],
+        "type": "Hoodie"
+      }
+    },
+    {
+      "id": 19,
+      "name": "Kaws x Supreme Hoodie Dark Blue",
+      "price": 34400,
+      "quantity": 4,
+      "brand": ["Supreme", "KAWS"],
+      "image": "./images/kaws-x-supreme-hoodie-dark-blue.jpg",
+      "nature": {
+        "color": ["blue"],
+        "size": ["M", "L", "XL"],
+        "type": "Hoodie"
+      }
+    },
+    {
+      "id": 20,
+      "name": "Kaws x Supreme Hoodie Yellow",
+      "price": 41800,
+      "quantity": 7,
+      "brand": ["Supreme", "KAWS"],
+      "image": "./images/kaws-x-supreme-hoodie-yellow.jpg",
+      "nature": {
+        "color": ["yellow"],
+        "size": ["M", "L"],
+        "type": "Hoodie"
+      }
+    },
+    {
+      "id": 21,
+      "name": "Supreme x Burberry Box Logo Hoodie Pink",
+      "price": 62700,
+      "quantity": 3,
+      "brand": ["Supreme", "Burberry"],
+      "image": "./images/supreme-x-burberry-box-logo-hoodie-pink-1.jpg",
+      "nature": {
+        "color": ["pink"],
+        "size": ["L", "XL"],
+        "type": "Hoodie"
+      }
+    },
+    {
+      "id": 22,
+      "name": "Stone Island Hoodie Blue",
+      "price": 51200,
+      "quantity": 6,
+      "brand": ["Stone Island"],
+      "image": "./images/stone-island-hoodie-blue.jpg",
+      "nature": {
+        "color": ["blue"],
+        "size": ["S", "M", "L", "XL"],
+        "type": "Hoodie"
+      }
+    },
+    {
+      "id": 23,
+      "name": "Stone Island Sweater Blue",
+      "price": 22695,
+      "quantity": 10,
+      "brand": ["Stone Island"],
+      "image": "./images/stone-island-sweater-blue.jpg",
+      "nature": {
+        "color": ["blue"],
+        "size": ["S", "M", "L", "XL"],
+        "type": "Sweater"
+      }
+    },
+    {
+      "id": 24,
+      "name": "Stone Island Sweater White",
+      "price": 26180,
+      "quantity": 12,
+      "brand": ["Stone Island"],
+      "image": "./images/stone-island-sweater-white.jpg",
+      "nature": {
+        "color": ["white"],
+        "size": ["S", "M", "L", "XL"],
+        "type": "Sweater"
+      }
+    },
+    {
+      "id": 25,
+      "name": "Stone Island Sweater Yellow",
+      "price": 23500,
+      "quantity": 7,
+      "brand": ["Stone Island"],
+      "image": "./images/stone-island-sweater-yellow.jpg",
+      "nature": {
+        "color": ["yellow"],
+        "size": ["S", "M", "L", "XL"],
+        "type": "Sweater"
+      }
+    },
+    {
+      "id": 26,
+      "name": "Stone Island Sweater Black",
+      "price": 28500,
+      "quantity": 8,
+      "brand": ["Stone Island"],
+      "image": "./images/stone-island-sweater-black.jpg",
+      "nature": {
+        "color": ["black"],
+        "size": ["S", "M", "L", "XL"],
+        "type": "Sweater"
+      }
+    },
+    {
+      "id": 27,
+      "name": "Stone Island Sweater Red",
+      "price": 25300,
+      "quantity": 11,
+      "brand": ["Stone Island"],
+      "image": "./images/stone-island-sweater-red.jpg",
+      "nature": {
+        "color": ["red"],
+        "size": ["S", "M", "L", "XL"],
+        "type": "Sweater"
+      }
+    },
+    {
+      "id": 28,
+      "name": "Stone Island Sweater Orange",
+      "price": 27450,
+      "quantity": 7,
+      "brand": ["Stone Island"],
+      "image": "./images/stone-island-sweater-orange.jpg",
+      "nature": {
+        "color": ["orange"],
+        "size": ["S", "M", "L", "XL"],
+        "type": "Sweater"
+      }
+    },
+    {
+      "id": 29,
+      "name": "Supreme x Stone Island Nero Jacket",
+      "price": 630000,
+      "quantity": 2,
+      "brand": ["Stone Island", "Supreme"],
+      "image": "./images/Supreme-Stone-Island-Nero-Jacket-Yellow.jpg",
+      "nature": {
+        "color": ["yellow"],
+        "size": ["L"],
+        "type": "Jacket"
+      }
+    },
+    {
+      "id": 30,
+      "name": "Supreme x Stone Island Cotton Cordura Shell Jacket",
+      "price": 56440,
+      "quantity": 5,
+      "brand": ["Stone Island", "Supreme"],
+      "image": "./images/Supreme-Stone-Island-Cotton-Cordura-Shell-Jacket-Mona-Lisa.jpg",
+      "nature": {
+        "color": ["white"],
+        "size": ["L", "XL"],
+        "type": "Jacket"
+      }
+    },
+    {
+      "id": 31,
+      "name": "Supreme x Stone Island Cotton Cordura Shell Jacket",
+      "price": 51000,
+      "quantity": 7,
+      "brand": ["Stone Island", "Supreme"],
+      "image": "./images/Supreme-Stone-Island-Cotton-Cordura-Shell-Jacket-Black.jpg",
+      "nature": {
+        "color": ["black"],
+        "size": ["M", "L", "XL"],
+        "type": "Jacket"
+      }
+    },
+    {
+      "id": 32,
+      "name": "Supreme x Stone Island Corduroy Jacket",
+      "price": 80000,
+      "quantity": 5,
+      "brand": ["Stone Island", "Supreme"],
+      "image": "./images/Supreme-Stone-Island-Corduroy-Jacket-Stone-01.jpg",
+      "nature": {
+        "color": ["white"],
+        "size": ["L", "XL"],
+        "type": "Jacket"
+      }
+    },
+    {
+      "id": 33,
+      "name": "Supreme x Stone Island Reactive Ice Camo Ripstop Jacket",
+      "price": 62220,
+      "quantity": 4,
+      "brand": ["Stone Island", "Supreme"],
+      "image": "./images/Supreme-Stone-Island-Reactive-Ice-Camo-Ripstop-Jacket-Black.jpg",
+      "nature": {
+        "color": ["black"],
+        "size": ["M", "L", "XL"],
+        "type": "Jacket"
+      }
+    }
+  ]
+}

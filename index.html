@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>UFOmore</title>
+</head>
+<body>
+  <div class="container">
+    <form class="filter">
+      <div class="item">
+        <label for="">Category</label>
+        <select name="category">
+          <!-- Каталог товаров - https://kicksmania.ru/shop/brands-craperdiem -->
+          <option value="">---</option>
+          <option value="Sneakers">Sneakers</option>
+          <option value="T-shirt">T-shirt</option>
+          <option value="Hoodie">Hoodie</option>
+          <option value="Sweater">Sweater</option>
+          <option value="Jacket">Jacket</option>
+          <option value="Pants">Pants</option>
+          <option value="Accessories">Accessories</option>
+          <option value="Сareproducts">Сare products</option>
+          <option value="Figurines">Figurines</option>
+        </select>
+      </div>
+      <div class="item">
+        <label for="">Brand</label>
+        <select name="brand">
+          <option value="">---</option>
+          <option value="UFOmore">UFOmore</option>
+          <option value="Nike">Nike</option>
+          <option value="Adidas">Adidas</option>
+          <option value="Jordan">Jordan</option>
+          <option value="The North Face">The North Face</option>
+          <option value="Uniqlo">Uniqlo</option>
+          <option value="Off-White">Off-White</option>
+          <option value="Supreme">Supreme</option>
+          <option value="Travis Scott">Travis Scott</option>
+          <option value="Fear Of God">Fear Of God</option>
+          <option value="Burberry">Burberry</option>
+          <option value="Stone Island">Stone Island</option>
+          <option value="KAWS">KAWS</option>
+          <option value="Medicom Toy">Medicom Toy</option>
+        </select>
+      </div>
+      <div class="item">
+        <label for="">Color</label>
+        <select name="color">
+          <option value="">---</option>
+          <option value="white">white</option>
+          <option value="black">black</option>
+          <option value="pink">pink</option>
+          <option value="purple">purple</option>
+          <option value="blue">blue</option>
+          <option value="yellow">yellow</option>
+          <option value="red">red</option>
+          <option value="orange">orange</option>
+          <option value="desert taupe">desert taupe</option>
+          <option value="cream">cream</option>
+          <option value="pistachio">pistachio</option>
+          <option value="taupe">taupe</option>
+          <option value="sand">sand</option>
+          <option value="khaki">khaki</option>
+        </select>
+      </div>
+      <div class="item">
+        <label for="">Size</label>
+        <input type="text" name="size">
+      </div>
+      <div class="item">
+        <label for="">Min Price</label>
+        <input type="number" name="minPrice">
+      </div>
+      <div class="item">
+        <label for="">Max Price</label>
+        <input type="number" name="maxPrice">
+      </div>
+      <div class="item name">
+        <label for="">Name</label>
+        <input type="text" name="name">
+      </div>
+      <div class="item submit">
+        <button>Search</button>
+      </div>
+    </form>
+    <div class="countResults">
+      Found <b id="count">0</b> results
+    </div>
+    <div id="list"></div>
+    <div>
+      <div id="modal"></div>
+    </div>
+  </div>
+
+  <script src="./js/script.js"></script>
+</body>
+</html>
