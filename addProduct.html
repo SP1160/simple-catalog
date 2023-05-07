@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/addProductStyle.css">
+  <title>Add Product Form</title>
+</head>
+<body>
+  <div class="wrapper">
+    <a class="go-back" href="index.html">Comeback to main page</a>
+
+    <div class="container">
+      <form class="product__items">
+        <h2>Product Add Form</h2>
+        <div class="product__item">
+          <label>Product name:</label>
+          <input type="text" name="productName" placeholder="Enter name" size="40" required>
+        </div>
+        <div class="product__item">
+          <label>Product price (usd):</label>
+          <input type="number" name="productPrice" size="40" placeholder="Enter price" required>
+        </div>
+        <div class="product__item">
+          <label>Product quantity:</label>
+          <input type="number" name="productQuantity" placeholder="Enter quantity" size="40" required>
+        </div>
+        <div class="product__item">
+          <label>Product brand:</label>
+          <input type="text" name="productBrand" size="40" placeholder="If more than one value - example: Supreme,Nike" required>
+        </div>
+        <div class="product__item">
+          <label>Product color:</label>
+          <input type="text" name="productColor" size="40" placeholder="If more than one value - example: grey,white" required>
+        </div>
+        <div class="product__item">
+          <label>Product size:</label>
+          <input type="text" name="productSize" size="40" placeholder="If more than one value - example: S,M,L,XL" required>
+        </div>
+        <div class="product__item">
+          <label>Product type:</label>
+          <input type="text" name="productType" size="40" placeholder="Enter type" required>
+        </div>
+        <div class="product__item">
+          <label>Product image:</label>
+          <input type="file" accept="image/jpeg,image/png,image/jpg" name="productImage" required>
+          <p>Make sure the picture is in the "images" folder before you upload it</p>
+        </div>
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="./js/addProduct.js"></script>
+</body>
+</html>

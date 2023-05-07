@@ -3,11 +3,6 @@ const filter = document.querySelector('.filter')
 const count = document.querySelector('#count')
 const items = document.querySelectorAll('.item')
 
-function convertCurrency(rubValue) {
-  const rate = 78
-  return Math.floor(rubValue / rate)
-}
-
 fetch('http://localhost:3000/shop')
   .then(data => data.json())
   .then(listProducts => {
@@ -34,7 +29,7 @@ fetch('http://localhost:3000/shop')
         // create price
         const newPrice = document.createElement('div')
         newPrice.classList.add('price')
-        newPrice.innerText = `${convertCurrency(item.price)} $`
+        newPrice.innerText = `${item.price} $`
         newItem.appendChild(newPrice)
 
         list.appendChild(newItem)
@@ -68,7 +63,7 @@ fetch('http://localhost:3000/shop')
           
           // create product price
           const productPrice = document.createElement('p')
-          productPrice.innerText = `Price: ${convertCurrency(item.price)} $`
+          productPrice.innerText = `Price: ${item.price} $`
           modalContent.appendChild(productPrice)
 
           // create product color
@@ -166,13 +161,13 @@ fetch('http://localhost:3000/shop')
         }
         //check min price
         if (valueFilter.minPrice.value != '') {
-          if (convertCurrency(item.price) < valueFilter.minPrice.value) {
+          if (item.price < valueFilter.minPrice.value) {
             return false
           }
         }
         //check max price
         if (valueFilter.maxPrice.value != '') {
-          if (convertCurrency(item.price) > valueFilter.maxPrice.value) {
+          if (item.price > valueFilter.maxPrice.value) {
             return false
           }
         }
